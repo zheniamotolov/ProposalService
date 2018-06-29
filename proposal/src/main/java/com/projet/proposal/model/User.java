@@ -1,7 +1,8 @@
 package com.projet.proposal.model;
 
+import com.projet.proposal.model.audit.DateAudit;
 import org.hibernate.annotations.NaturalId;
-import org.hibernate.annotations.Table;
+
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
